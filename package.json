@@ -1,0 +1,29 @@
+{
+  "name": "porfolio-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build:dev": "npm run build -- --watch --mode=development",
+    "start:dev": "npm run build:dev & nodemon ./server/server.js --ignore dist/ --ignore src/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.10",
+    "@babel/preset-react": "^7.22.5",
+    "babel-loader": "^9.1.3",
+    "nodemon": "^3.0.1",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}

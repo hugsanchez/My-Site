@@ -1,0 +1,11 @@
+.text-password {
+  border: none;
+  box-shadow: none;
+  outline: none;
+  color: #00FF16;
+  padding-left: 20px;
+}
+
+.cool-text {
+  font-family: 'Anonymous Pro', monospace;
+}

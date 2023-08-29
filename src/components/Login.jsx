@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../../public/css/login.css"
+import LoadingBar from "./LoadingBar";
 
 const Login = ({ onLogin }) => {
   const [password, setPassword] = useState('');

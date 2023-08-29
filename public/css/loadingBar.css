@@ -1,0 +1,21 @@
+.loading-container {
+  border: solid #00FF16;
+  width: 50%;
+  background-color: black;
+}
+.loading-subsection{
+  border-bottom: solid #00FF16;
+  font-family: 'Anonymous Pro', monospace;
+  color: white;
+}
+.take-padding{
+  padding: 20px;
+}
+.progress-bar {
+  width: 0;
+  height: 25px;
+  background-color: #00FF16;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}

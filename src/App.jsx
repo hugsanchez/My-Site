@@ -14,7 +14,7 @@ const App = () => {
 
     setTimeout(() => {
       setIsLoading(false);
-    },5500)
+    },7000)
   };
 
   const handleLogout = () => {

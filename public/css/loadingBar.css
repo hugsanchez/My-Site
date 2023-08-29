@@ -19,3 +19,9 @@
   color: black;
   font-weight: bold;
 }
+
+.access{
+  border: solid #00FF16;
+  font-family: 'Anonymous Pro', monospace;
+  padding: 20px;
+}

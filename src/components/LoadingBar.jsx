@@ -39,7 +39,7 @@ const LoadingBar = () => {
           ): (
             <div className="text-center loading-container">
             <h3 className="loading-subsection">Accessing the files</h3>
-            <span className="fs-5">{Math.round(percentage)}%</span>
+            <span className="fs-5 cool-text">{Math.round(percentage)}%</span>
             <div className="take-padding">
               <div className="progress-bar" style={{ width: `${percentage}%`}}></div>
             </div>
